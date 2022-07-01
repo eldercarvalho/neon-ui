@@ -1,5 +1,5 @@
 {
-  "name": "neon-ui",
+  "name": "@neon-ui/core",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -12,7 +12,7 @@
   "scripts": {
     "bootstrap": "yarn lerna bootstrap",
     "build": "yarn lerna run build",
-    "test": "yarn lerna run test"
+    "test": "yarn lerna run test --no-sort"
   },
   "devDependencies": {
     "lerna": "^5.1.6",

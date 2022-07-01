@@ -1,0 +1,26 @@
+{
+  "name": "@neon-ui/react",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Elder Carvalho <eld.carv@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "yarn build --watch"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.14",
+    "react": "^18.2.0",
+    "rollup": "^2.75.7",
+    "rollup-plugin-typescript2": "^0.32.1",
+    "typescript": "^4.7.4"
+  }
+}
