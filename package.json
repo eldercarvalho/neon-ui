@@ -1,0 +1,21 @@
+{
+  "name": "neon-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "bootstrap": "yarn lerna bootstrap",
+    "build": "yarn lerna run build",
+    "test": "yarn lerna run test"
+  },
+  "devDependencies": {
+    "lerna": "^5.1.6",
+    "nx": "^14.3.6"
+  }
+}
